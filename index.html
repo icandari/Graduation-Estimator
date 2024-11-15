@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule Generator</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Class Schedule Generator</h1>
+        <form id="schedule-form">
+            <label for="major-link">Major Link:</label>
+            <input type="url" id="major-link" name="major-link" required>
+            
+            <label for="minor1-link">Minor 1 Link:</label>
+            <input type="url" id="minor1-link" name="minor1-link" required>
+            
+            <label for="minor2-link">Minor 2 Link:</label>
+            <input type="url" id="minor2-link" name="minor2-link" required>
+            
+            <button type="submit">Generate Schedule</button>
+        </form>
+
+        <div id="schedule-output"></div>
+    </div>
+
+    
+</body>
+</html>
